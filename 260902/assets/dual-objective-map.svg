@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" role="img" aria-labelledby="title desc">
+  <title id="title">규제조정의 대미 협력과 국내 경쟁력 방향성</title>
+  <desc id="desc">가로축은 대미 협력, 세로축은 한국 국내 경쟁력의 방향성을 나타낸다. 중복절차 축소, 상호적 제한인정, 개방형 표준과 이식성이 우상단에 위치한다.</desc>
+  <rect width="1100" height="720" fill="#f7f9fc"/>
+  <style>
+    text { font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif; fill: #172033; }
+    .title { font-size: 30px; font-weight: 700; }
+    .sub { font-size: 16px; fill: #5c677a; }
+    .axis { font-size: 17px; font-weight: 600; }
+    .label { font-size: 15px; font-weight: 600; }
+    .note { font-size: 13px; fill: #687386; }
+  </style>
+  <text x="55" y="54" class="title">두 목표를 함께 보는 규제조정 방향성</text>
+  <text x="55" y="83" class="sub">방향성 점수이며 인과효과 추정치가 아님 · 보호조건 없는 기본 설계 기준</text>
+
+  <rect x="125" y="120" width="840" height="480" rx="10" fill="#fff" stroke="#c7d0dd"/>
+  <rect x="545" y="120" width="420" height="240" fill="#e7f7ee"/>
+  <rect x="125" y="120" width="420" height="240" fill="#eef4ff"/>
+  <rect x="125" y="360" width="420" height="240" fill="#fff0f1"/>
+  <rect x="545" y="360" width="420" height="240" fill="#fff8e7"/>
+
+  <line x1="545" y1="120" x2="545" y2="600" stroke="#6b778c" stroke-width="2"/>
+  <line x1="125" y1="360" x2="965" y2="360" stroke="#6b778c" stroke-width="2"/>
+  <text x="396" y="655" class="axis">대미 협력 U →</text>
+  <text x="20" y="390" class="axis" transform="rotate(-90 20 390)">한국 국내 경쟁력 K →</text>
+
+  <text x="700" y="145" class="note">두 목표 모두 개선 가능</text>
+  <text x="270" y="145" class="note">국내 보호, 협력효과 제한</text>
+  <text x="255" y="580" class="note">양 목표 모두 취약</text>
+  <text x="700" y="580" class="note">협력은 늘지만 국내가치 위험</text>
+
+  <g>
+    <circle cx="850" cy="225" r="15" fill="#16804c"/>
+    <text x="670" y="215" class="label">중복절차·증거 축소</text>
+    <text x="670" y="237" class="note">U +2 / K +1</text>
+
+    <circle cx="850" cy="285" r="15" fill="#16804c"/>
+    <text x="670" y="275" class="label">상호적 제한인정</text>
+    <text x="670" y="297" class="note">U +2 / K +1</text>
+
+    <circle cx="850" cy="335" r="15" fill="#16804c"/>
+    <text x="670" y="325" class="label">개방형 표준·portability</text>
+    <text x="670" y="347" class="note">U +2 / K +1</text>
+
+    <circle cx="680" cy="250" r="13" fill="#3b8f65"/>
+    <text x="570" y="205" class="label">저위험 축소</text>
+    <text x="570" y="227" class="note">U +1 / K +1</text>
+
+    <circle cx="665" cy="310" r="13" fill="#3b8f65"/>
+    <text x="560" y="295" class="label">샌드박스</text>
+    <text x="560" y="317" class="note">U +1 / K +1</text>
+
+    <circle cx="675" cy="475" r="15" fill="#d78700"/>
+    <text x="700" y="465" class="label">일방적 미국 규칙 정렬</text>
+    <text x="700" y="487" class="note">U +1 / K -1</text>
+
+    <circle cx="310" cy="500" r="15" fill="#bf3b4b"/>
+    <text x="185" y="490" class="label">무기한 유예</text>
+    <text x="185" y="512" class="note">U 0 / K -1</text>
+
+    <circle cx="805" cy="545" r="17" fill="#9f2636"/>
+    <text x="610" y="535" class="label">핵심 의무 폐지</text>
+    <text x="610" y="557" class="note">U +1 / K -2</text>
+  </g>
+  <text x="125" y="690" class="note">출처: 공식문서·유사실증·8개 조사축의 메커니즘 평가. 한국 AI 규제의 사후 인과효과는 미측정.</text>
+</svg>
