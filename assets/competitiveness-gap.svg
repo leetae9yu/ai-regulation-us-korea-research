@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">미국 대비 한국의 일부 프런티어 AI 지표</title>
+  <desc id="desc">미국을 각 지표 100으로 두었을 때 한국은 notable AI models 2.50, 민간 AI 투자 1.22, TOP500 Rmax 점유율 4.82이다.</desc>
+  <rect width="1000" height="560" fill="#f7f9fc"/>
+  <style>
+    text { font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif; fill: #182230; }
+    .title { font-size: 30px; font-weight: 700; }
+    .sub { font-size: 16px; fill: #526274; }
+    .label { font-size: 18px; font-weight: 600; }
+    .value { font-size: 17px; font-weight: 700; }
+    .axis { font-size: 14px; fill: #64748b; }
+  </style>
+  <text x="60" y="56" class="title">미국 대비 한국의 일부 프런티어 AI 지표</text>
+  <text x="60" y="84" class="sub">각 항목에서 미국=100 · 서로 다른 단위를 상대비율로 변환</text>
+
+  <line x1="315" y1="125" x2="315" y2="450" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="315" y1="450" x2="915" y2="450" stroke="#94a3b8" stroke-width="1"/>
+  <g class="axis">
+    <text x="310" y="478">0</text>
+    <text x="430" y="478">20</text>
+    <text x="550" y="478">40</text>
+    <text x="670" y="478">60</text>
+    <text x="790" y="478">80</text>
+    <text x="900" y="478">100</text>
+  </g>
+  <g stroke="#d6dde8" stroke-width="1">
+    <line x1="435" y1="125" x2="435" y2="450"/>
+    <line x1="555" y1="125" x2="555" y2="450"/>
+    <line x1="675" y1="125" x2="675" y2="450"/>
+    <line x1="795" y1="125" x2="795" y2="450"/>
+    <line x1="915" y1="125" x2="915" y2="450"/>
+  </g>
+
+  <text x="60" y="180" class="label">2024 notable AI models</text>
+  <rect x="315" y="145" width="600" height="34" rx="6" fill="#cbd5e1"/>
+  <rect x="315" y="189" width="15" height="34" rx="6" fill="#2563eb"/>
+  <text x="840" y="168" class="value">미국 100</text>
+  <text x="342" y="213" class="value">한국 2.50</text>
+
+  <text x="60" y="310" class="label">2024 민간 AI 투자</text>
+  <rect x="315" y="275" width="600" height="34" rx="6" fill="#cbd5e1"/>
+  <rect x="315" y="319" width="7.32" height="34" rx="6" fill="#2563eb"/>
+  <text x="840" y="298" class="value">미국 100</text>
+  <text x="334" y="343" class="value">한국 1.22</text>
+
+  <text x="60" y="440" class="label">2025 TOP500 Rmax 점유율</text>
+  <rect x="315" y="405" width="600" height="34" rx="6" fill="#cbd5e1"/>
+  <rect x="315" y="449" width="28.92" height="34" rx="6" fill="#2563eb"/>
+  <text x="840" y="428" class="value">미국 100</text>
+  <text x="356" y="473" class="value">한국 4.82</text>
+
+  <text x="60" y="528" class="sub">출처: Stanford AI Index 2025, TOP500 June 2025 · 종합 AI 점수가 아님</text>
+</svg>
